@@ -6,8 +6,4 @@ In the file Tracking.py, the recorded videos are tracked for each colloid. First
 
 In the file Analysis.py, the trajectories are analyzed (using the data file). Filters are applied since the tracking may capture points that do not correspond to a colloid. From there, the potential figure is generated, as well as the length of the trap based on the distance the colloids move. All results include their respective errors.
 
-The "Potential_width_...." files contain the values from which the potential graph with respect to the position of the particles has been generated, for each corresponding width (w).
-
 In the file PotentialBarrier.py, there is the code used to generate the figure of the potential with respect to the width (w), including the regression line and the corresponding errors.
-
-The "PotentialVSwidth" file contains the values from which the potential barrier figure with respect to the width (w) has been generated.
