@@ -4,12 +4,12 @@ import matplotlib.pyplot as plt
 
 w=np.array([1.8,1.6,1.4,1.2,1.0])
 
-min1=np.loadtxt("de20a40.txt")[:, 1]
-min2=np.loadtxt("de20a40.txt")[:, 2]
-maxim=np.loadtxt("de20a40.txt")[:, 3]
-errmin1=np.loadtxt("de20a40.txt")[:, 4]
-errmin2=np.loadtxt("de20a40.txt")[:, 5]
-errmaxim=np.loadtxt("de20a40.txt")[:, 6]
+min1=np.loadtxt("PotentialVSwidth.txt")[:, 1]
+min2=np.loadtxt("PotentialVSwidth.txt")[:, 2]
+maxim=np.loadtxt("PotentialVSwidth.txt")[:, 3]
+errmin1=np.loadtxt("PotentialVSwidth.txt")[:, 4]
+errmin2=np.loadtxt("PotentialVSwidth.txt")[:, 5]
+errmaxim=np.loadtxt("PotentialVSwidth.txt")[:, 6]
 
 averagemin=(min1+min2)/2
 erraveragemin=(errmin1+errmin2)/2
