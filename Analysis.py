@@ -127,7 +127,7 @@ plt.xticks(fontsize=12)
 plt.yticks(fontsize=12)
 plt.arrow(0.0, 3.0, 0.0, 1.0, color='blue', head_length = 0.2, head_width = 0.1, length_includes_head = True)
 plt.arrow(0.0, 4.0, -0.0, -1.0, color='blue', head_length = 0.2, head_width = 0.1, length_includes_head = True)
-plt.text(-0.7, 2.2, '$\Delta$U = 2.50 k$_B$T', fontsize=15, color='blue')
+plt.text(-0.7, 2.2, '$\Delta$U = 2.50 k$_B$T', fontsize=15, color='blue') ###### The value is calculated in PotentialBarrier.py
 plt.xlim(-2,2)
 plt.ylim(2,8)
 plt.show()
